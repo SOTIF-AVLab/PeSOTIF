@@ -1,5 +1,6 @@
 # PeSOTIF
 The first batch of the PeSOTIF dataset includes 1126 frames of data that covers different weather, seasons, and times of the day. This work labeled 11 categories of traffic participants, including car, bus, truck, train, bike, motor, person, rider, traffic sign, traffic light, and traffic cone. In the YOLO format, each frame of image has a .txt file to store its annotations. Besides, the dataset is also reorganized as the COCO format for quick use. In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are 2555 key objects and 2778 key objects labeled. The demonstration video shows the basic information of the dataset.
+![sample images in PeSOTIF](demonstration/PeSOTIF.png)
 
 # Data collection
 The PeSOTIF dataset aims to be a diverse test dataset for perception SOTIF problems currently, thus collects key frames of critical traffic scenarios extracted from multiple data sources. In the future, after collecting sufficient corner cases, decomposing a training dataset to improve the algorithm performance will be considered.  
