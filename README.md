@@ -3,7 +3,9 @@
 The first batch of the PeSOTIF dataset includes 1126 frames of data that covers different weather, seasons, and times of the day. This work labeled 11 categories of traffic participants, including car, bus, truck, train, bike, motor, person, rider, traffic sign, traffic light, and traffic cone.   
 In the YOLO format, each frame of image has a <kbd>.txt</kbd> file to store its annotations. Besides, the dataset is also reorganized as the COCO format <kbd>.json</kbd> for quick use.    
 In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are 2555 key objects and 2778 normal objects labeled.    
-![sample images in PeSOTIF](demonstration/PeSOTIF.png)
+<div align=center>
+<img src="demonstration/PeSOTIF.png" width = 800>
+</div>   
 
 ## Data collection
 The PeSOTIF dataset aims to be a diverse test dataset for perception SOTIF problems currently, thus collects key frames of critical traffic scenarios extracted from multiple data sources. In the future, after collecting sufficient corner cases, decomposing a training dataset to improve the algorithm performance will be considered.  
@@ -11,7 +13,6 @@ The first part of the data comes from experiments designed to study trigger cond
 The second part of the data comes from traffic accident videos. There are thousands of videos uploaded by the perception task group of the China SOTIF technical alliance. These videos were screened from road test data, public traffic accident databases, and even clips-sharing sites like YouTube. This work has browsed these videos, further filtered out the scenarios related to perception SOTIF problems. Then, the key frames that may cause perception failure and traffic accidents were located and added to the PeSOTIF dataset.    
 In addition, we also carefully selected some images that meet our requirements from the test subset of the existing data sets, including BDD100k, COCO, KITTI, Raindrop, ExDark and Radiate. For on-board traffic data sets, some scenarios affected by the perceptual trigger conditions were added to the PeSOITF dataset. For visual detection data sets under adverse environment, some outdoor data was extracted.
 The demonstration video shows the basic information of the dataset.    
-![demonstration video of PeSOTIF](demonstration/PeSOTIF.mp4)
 
 ## Evaluation protocol
 For the probabilistic object detectors with the functions of uncertainty estimation, this work suggests an evaluation protocol for measuring the performance of the entropy-based warning mechanism, which aims to simulate the reaction of human drivers to high-risk objects in the scenario. The analysis is performed in three dimensions:    
@@ -20,7 +21,9 @@ First, the objects are classified as key or normal in terms of the human evaluat
 *	False alert rate (FAR): the ratio of the number of objects that have been warned but should not be warned to that of all warned objects; the lower the ratio is, the better the performance will be;
 *	Classification quality score (CQS): the results consistent with the meaning of classification dimension and uncertainty dimension; the larger the score is, the better the performance will be;
 *	Uncertainty quality score (UQS): has the similar meaning as CQS; the higher the proportion of high-uncertainty objects in inaccurate results is, and the lower the proportion of high-uncertainty objects in accurate results is, the larger the UQS value will be, and the better the performance will be.
-![evaluation protocol of PeSOTIF](demonstration/evaluation.png)
+<div align=center>
+<img src="demonstration/evaluation.png" width = 800>
+</div> 
 
 ## Access
 You can get the project and some samples by executing `git clone https://github.com/SOTIF-AVLab/PeSOTIF.git`. To access the full dataset， please contact us by e-mail:   
@@ -40,7 +43,7 @@ If you find our dataset useful in your work, please kindly cite us:
 We would like to appreciate the contributions of the perception task group of the CAICV-SOTIF technical alliance in China.  
 
 ## Organization
-![logo](demonstration/logo.png)
+<img src="demonstration/logo.png" width = 350>
 - School of Vehicle and Mobility, Tsinghua University    
 - Tsinghua Intelligent Vehicle Design and Safety Research Institute    
 - Safety Of The Intended Functionality（SOTIF） Research Team    
