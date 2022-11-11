@@ -4,7 +4,7 @@ The first batch of the PeSOTIF dataset includes 1126 frames of data that covers 
 In the YOLO format, each frame of image has a <kbd>.txt</kbd> file to store its annotations. Besides, the dataset is also reorganized as the COCO format <kbd>.json</kbd> for quick use.    
 In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are 2555 key objects and 2778 normal objects labeled.    
 <div align=center>
-<img src="demonstration/PeSOTIF.png" width = 700>
+<img src="demonstration/PeSOTIF.png" width = 600>
 </div>
 
 ## Data collection
@@ -29,7 +29,7 @@ First, the objects are classified as key or normal in terms of the human evaluat
 Our team has trained and validated multiple 2D object detection networks on [BDD100k](https://openaccess.thecvf.com/content_CVPR_2020/html/Yu_BDD100K_A_Diverse_Driving_Dataset_for_Heterogeneous_Multitask_Learning_CVPR_2020_paper.html) and [traffic_cone](https://github.com/MarkDana/RealtimeConeDetection) datasets through transfer learning, and then tested them on our PeSOTIF dataset.   
 Besides, we constructed a probabilistic object detector based on YOLOv5 using the deep ensembles method. The experimental results can be found in the [paper](https://arxiv.org/abs/2211.03402). Some detection results are shown as follows, where high-uncertainty objects should be along with the key objects annotated by human drivers.    
 <div align=center>
-<img src="demonstration/detection.png" width = 800>
+<img src="demonstration/detection.png" width = 600>
 </div>
 
 ## Access
