@@ -25,6 +25,13 @@ First, the objects are classified as key or normal in terms of the human evaluat
 <img src="demonstration/evaluation.png" width = 800>
 </div>
 
+## Applications based on this dataset
+Our team has trained and validated multiple 2D object detection networks on [BDD100k](https://openaccess.thecvf.com/content_CVPR_2020/html/Yu_BDD100K_A_Diverse_Driving_Dataset_for_Heterogeneous_Multitask_Learning_CVPR_2020_paper.html) and [traffic_cone](https://github.com/MarkDana/RealtimeConeDetection) datasets through transfer learning, and then tested them on our PeSOTIF dataset.   
+Besides, we constructed a probabilistic object detector based on YOLOv5 using the deep ensembles method. The experimental results can be found in the [paper](https://arxiv.org/abs/2211.03402). Some detection results are shown as follows, where high-uncertainty objects should be along with the key objects annotated by human drivers.    
+<div align=center>
+<img src="demonstration/detections.png" width = 800>
+</div>
+
 ## Access
 You can get the project and some samples by executing `git clone https://github.com/SOTIF-AVLab/PeSOTIF.git`. To access the full dataset， please contact us by e-mail: hong_wang@mail.tsinghua.edu.cn    or    peng-l20@mails.tsinghua.edu.cn   
 * The title of the email should be: __\[Apply for PeSOTIF\] name\_country(region)\_organization__    
@@ -38,7 +45,12 @@ If you find our dataset useful in your work, please kindly cite us:
 * [Safety Decision of Running Speed Based on Real-time Weather](https://ieeexplore.ieee.org/abstract/document/9827365)    
 
 ## Acknowledgements
-We would like to appreciate the contributions of the perception task group of the CAICV-SOTIF technical alliance in China.  
+We would like to appreciate the contributions of the perception task group of the CAICV-SOTIF technical alliance in China.   
+Our training and testing codes applying our PeSOTIF dataset are built upon the following projects and papers:   
+* [You Only Look Once v5](https://github.com/ultralytics/yolov5)
+* [Open MMLab Detection Toolbox and Benchmark](https://arxiv.org/abs/1906.07155)    
+* [Simple and scalable predictive uncertainty estimation using deep ensembles](https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html)
+* [Evaluating merging strategies for sampling-based uncertainty techniques in object detection](https://ieeexplore.ieee.org/abstract/document/8793821)
 
 ## Organization
 <img src="demonstration/logo.png" width = 350>
