@@ -26,8 +26,7 @@ First, the objects are classified as key or normal in terms of the human evaluat
 </div>
 
 ## Access
-You can get the project and some samples by executing `git clone https://github.com/SOTIF-AVLab/PeSOTIF.git`. To access the full dataset， please contact us by e-mail:   
-hong_wang@mail.tsinghua.edu.cn    or    peng-l20@mails.tsinghua.edu.cn    
+You can get the project and some samples by executing `git clone https://github.com/SOTIF-AVLab/PeSOTIF.git`. To access the full dataset， please contact us by e-mail: hong_wang@mail.tsinghua.edu.cn    or    peng-l20@mails.tsinghua.edu.cn   
 * The title of the email should be: __\[Apply for PeSOTIF\] name\_country(region)\_organization__    
 Please describe your laboratory or department, research interest, and the purpose of the dataset in detail in the email content; After confirmation, we will send the complete data link as soon as possible. You are also welcome to further communicate with us.    
 
