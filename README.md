@@ -42,7 +42,7 @@ We would like to appreciate the contributions of the perception task group of th
 
 ## Organization
 <img src="demonstration/logo.png" width = 350>
-* School of Vehicle and Mobility, Tsinghua University    
-* Tsinghua Intelligent Vehicle Design and Safety Research Institute    
-* Safety Of The Intended Functionality（SOTIF） Research Team    
+* School of Vehicle and Mobility, Tsinghua University
+* Tsinghua Intelligent Vehicle Design and Safety Research Institute
+* Safety Of The Intended Functionality（SOTIF） Research Team
 
