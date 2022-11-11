@@ -41,10 +41,10 @@ If you find our dataset useful in your work, please kindly cite us:
 We would like to appreciate the contributions of the perception task group of the CAICV-SOTIF technical alliance in China.  
 
 ## Organization
-<div align=left>
 <img src="demonstration/logo.png" width = 350>
-</div>
-- School of Vehicle and Mobility, Tsinghua University     
-- Tsinghua Intelligent Vehicle Design and Safety Research Institute     
-- Safety Of The Intended Functionality（SOTIF） Research Team     
+
+- School of Vehicle and Mobility, Tsinghua University
+- Tsinghua Intelligent Vehicle Design and Safety Research Institute
+- Safety Of The Intended Functionality（SOTIF） Research Team
+
 
