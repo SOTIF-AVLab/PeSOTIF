@@ -4,7 +4,7 @@ The first batch of the PeSOTIF dataset includes 1126 frames of data that covers 
 In the YOLO format, each frame of image has a <kbd>.txt</kbd> file to store its annotations. Besides, the dataset is also reorganized as the COCO format <kbd>.json</kbd> for quick use.    
 In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are 2555 key objects and 2778 normal objects labeled.    
 <div align=center>
-<img src="demonstration/PeSOTIF.png" width = 600>
+<img src="demonstration/PeSOTIF.png" width = 700>
 </div>
 
 ## Data collection
@@ -22,7 +22,7 @@ First, the objects are classified as key or normal in terms of the human evaluat
 *	Classification quality score (CQS): the results consistent with the meaning of classification dimension and uncertainty dimension; the larger the score is, the better the performance will be;
 *	Uncertainty quality score (UQS): has the similar meaning as CQS; the higher the proportion of high-uncertainty objects in inaccurate results is, and the lower the proportion of high-uncertainty objects in accurate results is, the larger the UQS value will be, and the better the performance will be.
 <div align=center>
-<img src="demonstration/evaluation.png" width = 600>
+<img src="demonstration/evaluation.png" width = 800>
 </div>
 
 ## Access
@@ -41,8 +41,10 @@ If you find our dataset useful in your work, please kindly cite us:
 We would like to appreciate the contributions of the perception task group of the CAICV-SOTIF technical alliance in China.  
 
 ## Organization
+<div align=left>
 <img src="demonstration/logo.png" width = 350>
-* School of Vehicle and Mobility, Tsinghua University     
-* Tsinghua Intelligent Vehicle Design and Safety Research Institute     
-* Safety Of The Intended Functionality（SOTIF） Research Team     
+</div>
+- School of Vehicle and Mobility, Tsinghua University     
+- Tsinghua Intelligent Vehicle Design and Safety Research Institute     
+- Safety Of The Intended Functionality（SOTIF） Research Team     
 
