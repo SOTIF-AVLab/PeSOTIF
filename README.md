@@ -39,9 +39,9 @@ Please describe your laboratory or department, research interest, and the purpos
 
 ## Citation
 If you find our dataset useful in your work, please kindly cite us:   
-* PeSOTIF: a Challenging Visual Dataset for Perception SOTIF Problems in Long-tail Traffic Scenarios (submmited to 2023 ICRA)    
+* [PeSOTIF: a Challenging Visual Dataset for Perception SOTIF Problems in Long-tail Traffic Scenarios](https:https://ieeexplore.ieee.org/abstract/document/10186651/)    
 * [Uncertainty Evaluation of Object Detection Algorithms for Autonomous Vehicles](https://link.springer.com/article/10.1007/s42154-021-00154-0)  
-* SOTIF Entropy: Online SOTIF Risk Quantification and Mitigation for Autonomous Driving (submmited to IEEE TITS)    
+* [SOTIF Entropy: Online SOTIF Risk Quantification and Mitigation for Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/10285374/)    
 * [Safety Decision of Running Speed Based on Real-time Weather](https://ieeexplore.ieee.org/abstract/document/9827365)    
 
 ## Acknowledgements
