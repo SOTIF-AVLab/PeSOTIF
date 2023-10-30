@@ -1,8 +1,8 @@
 # PeSOTIF
 ## Introduction
-The first batch of the PeSOTIF dataset includes 1126 frames of data that covers different weather, seasons, and times of the day. This work labeled 11 categories of traffic participants, including car, bus, truck, train, bike, motor, person, rider, traffic sign, traffic light, and traffic cone.   
+The first batch of the PeSOTIF dataset includes **1126** frames of data that covers different weather, seasons, and times of the day. This work labeled **11** categories of traffic participants, including car, bus, truck, train, bike, motor, person, rider, traffic sign, traffic light, and traffic cone.   
 In the YOLO format, each frame of image has a <kbd>.txt</kbd> file to store its annotations. Besides, the dataset is also reorganized as the COCO format <kbd>.json</kbd> for quick use.    
-In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are 2555 key objects and 2778 normal objects labeled.    
+In addition to the category and bounding box parameters, a binary factor has been added to the annotation of each object to indicate whether the object is safety critical in the scenario. The ability to recognize the key object in the keyframe may be reduced due to trigger conditions in the scenario. In summary, there are **2555** key objects and **2778** normal objects labeled.    
 <div align=center>
 <img src="demonstration/PeSOTIF.png" width = 600>
 </div>
